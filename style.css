@@ -62,7 +62,7 @@ nav .mainMenu li a {
   display: inline-block;
   padding: 15px;
   text-decoration: none;
-  text-transform: uppercase;
+
   color: var(--white);
   font-family: "Alata", sans-serif;
   font-size: 15px;
@@ -112,4 +112,190 @@ nav .mainMenu .closeMenu,
   padding: 30px;
   color: var(--white);
   overflow-x: hidden;
+}
+
+.interactive-section {
+  margin: 8rem;
+  width: 100%;
+}
+
+.interactive-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interactive-image-mobile {
+  display: none;
+}
+
+.interactive-image {
+  flex-basis: 60%;
+}
+
+.interactive-text {
+  border: 1px solid var(--white);
+  padding: 3rem 3rem 0 4rem;
+  flex-basis: 40%;
+  margin-left: -10rem;
+  background-color: var(--white);
+  align-self: flex-end;
+}
+
+.interactive-text h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.interactive-text p {
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Alata", sans-serif;
+  color: var(--very--dark--gray);
+}
+
+.photo-gallery {
+  margin-bottom: 43rem;
+}
+
+.photo-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 89%;
+}
+
+.photo-text h1 {
+  padding-left: 15rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--dark--gray);
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
+}
+
+.photo-text button {
+  color: var(--black);
+  width: 140px;
+  height: 40px;
+  border: 1px solid var(--black);
+  font-weight: 400;
+  letter-spacing: 3px;
+  background-color: var(--white);
+  font-family: "Alata", sans-serif;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.photo-text button:hover {
+  color: var(--white);
+  border-color: var(--white);
+  background-color: var(--black);
+}
+
+.photo-gallery {
+  height: 80vh;
+}
+
+.photo-card {
+  display: flex;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  width: 90%;
+}
+
+.photo-text2:hover:after {
+  transform: translate(-50%, -50%);
+}
+
+.photos:hover .photo-text2 {
+  background: linear-gradient(180deg, #fffa 40%, #555a);
+}
+
+.photo-text2 h3 {
+  margin-left: 1rem;
+  position: absolute;
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 300;
+  bottom: 60px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.photo-text2 {
+  margin-right: 1rem;
+}
+
+.column4-mobile {
+  display: none;
+}
+
+footer {
+  background-color: var(--black);
+  display: flex;
+  margin-bottom: 0;
+  height: 30vh;
+  justify-content: space-around;
+}
+
+.right-column,
+.left-column {
+  width: 50%;
+}
+.footer-links a {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.social-links-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links-icons li a {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.social-links-icons li {
+  list-style: none;
+}
+
+.right-column {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.left-column {
+  margin-top: 3rem;
+  margin-left: 12rem;
+}
+
+.left-column img {
+  padding-left: 1.5rem;
+}
+
+#footer-nav {
+  margin-top: -1.5rem;
+}
+
+.copyright p {
+  color: var(--dark--gray);
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 2.5rem;
+  margin-left: 12rem;
 }
